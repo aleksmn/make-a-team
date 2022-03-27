@@ -1,0 +1,72 @@
+h1 {
+  color: #f68121;
+  font-size: 48px;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px magenta;
+}
+
+.candidates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  border: 1px solid blue;
+  height: 500px;
+  padding: 30px;
+}
+
+.candidates .card {
+  margin: 10px 20px;
+  padding: 10px;
+  -webkit-box-shadow: 6px 6px 8px 4px rgba(128, 128, 128, 0.274);
+          box-shadow: 6px 6px 8px 4px rgba(128, 128, 128, 0.274);
+  width: 30%;
+  position: relative;
+}
+
+.candidates .card img {
+  display: block;
+  margin: auto;
+  background: #7575ff;
+  border-radius: 50%;
+}
+
+.candidates .card button {
+  position: absolute;
+  bottom: 20px;
+  display: block;
+  width: 100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #34d968;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#29d15e), to(#23b154));
+  background-image: linear-gradient(to bottom, #29d15e, #23b154);
+  border-radius: 7px;
+  border: none;
+  -webkit-box-shadow: 0px 1px 4px #919191;
+          box-shadow: 0px 1px 4px #919191;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 0;
+  text-decoration: none;
+}
+
+.candidates .card button:hover {
+  background: #3cfc7f;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3cfc7f), to(#34d97b));
+  background-image: linear-gradient(to bottom, #3cfc7f, #34d97b);
+  text-decoration: none;
+}
+
+.candidates .card button:active {
+  background: #0e913c;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,67 @@
+
+h1 {
+    color:rgb(246, 129, 33);
+    font-size: 48px;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px magenta;
+}
+
+.candidates {
+    display:flex;
+    justify-content: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid blue;
+    height: 500px;
+    padding: 30px;
+
+    .card {
+        margin: 10px 20px;
+        padding: 10px;
+        // border: 1px solid blue;
+        box-shadow: 6px 6px 8px 4px rgba(128, 128, 128, 0.274);
+        width: 30%;
+        position: relative;
+
+
+        img {
+            display: block;
+            margin: auto;
+            background: rgb(117, 117, 255);
+            border-radius: 50%;
+        }
+
+
+        button {
+            position: absolute;
+            bottom: 20px;
+            display: block;
+            width: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            background: #34d968;
+            background-image: linear-gradient(to bottom, #29d15e, #23b154);
+            border-radius: 7px;
+            border: none;
+            box-shadow: 0px 1px 4px #919191;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 18px;
+            padding: 10px 0;
+            text-decoration: none;
+
+
+            &:hover {
+                background: #3cfc7f;
+                background-image: linear-gradient(to bottom, #3cfc7f, #34d97b);
+                text-decoration: none;
+            }
+            &:active {
+                background: #0e913c;
+            }
+        }
+    }
+}
